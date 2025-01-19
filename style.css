@@ -212,8 +212,9 @@ body {
 
 .issues-project {
   margin-top: 16px;
-  width: 250px;
-  height: 120px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 100px;
   background: url("files/Construction-Site-Issue-Management.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -306,7 +307,7 @@ body {
 }
 
 .home-imgHover:hover {
-  background-color: #919294; /**/
+  background-color: #919294;
   opacity: 0.8;
 }
 
@@ -323,7 +324,6 @@ body {
   z-index: 100;
 }
 
-/*  */
 @keyframes showRight {
   100% {
     width: 0;
@@ -335,9 +335,3 @@ body {
     pointer-events: auto;
   }
 }
-
-/* @keyframes showRight {
-  100% {
-    width: 0;
-  }
-} */
