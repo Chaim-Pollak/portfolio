@@ -135,6 +135,7 @@ body {
   justify-content: space-between;
   width: 345px;
   height: 50px;
+  margin-bottom: 16px;
 }
 
 .home-content .btn-box::before {
@@ -201,6 +202,35 @@ body {
 
 .btn-box a:hover::before {
   width: 100%;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.issues-project {
+  margin-top: 16px;
+  width: 250px;
+  height: 120px;
+  background: url("files/Construction-Site-Issue-Management.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #409497;
+  border-radius: 8px;
+}
+
+.projects::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #919294;
+  animation: showRight 1s ease forwards;
+  animation-delay: 1.5s;
 }
 
 .home-sci {
@@ -285,7 +315,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 100%;
+  width: 110%;
   height: 100%;
   background-color: #919294;
   animation: showRight 1s ease forwards;
@@ -305,3 +335,9 @@ body {
     pointer-events: auto;
   }
 }
+
+/* @keyframes showRight {
+  100% {
+    width: 0;
+  }
+} */
